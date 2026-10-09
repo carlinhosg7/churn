@@ -1,0 +1,42 @@
+{
+  "auc_teste": 0.747,
+  "precisao_teste@0.55": 0.727,
+  "recall_teste@0.55": 0.231,
+  "precisao_teste@0.40": 0.642,
+  "recall_teste@0.40": 0.544,
+  "taxa_churn_teste": 0.418,
+  "linhas_treino": 76215,
+  "linhas_teste": 15533,
+  "cortes_treino": [
+    "2018-03-31",
+    "2018-06-30",
+    "2018-09-30",
+    "2018-12-31",
+    "2019-03-31",
+    "2019-06-30",
+    "2024-03-31",
+    "2024-06-30",
+    "2024-09-30",
+    "2024-12-31",
+    "2025-03-31",
+    "2025-06-30"
+  ],
+  "cortes_teste": [
+    "2025-09-30",
+    "2025-12-27"
+  ],
+  "horizonte_dias": 270,
+  "backtest_sinal": {
+    "referencia": "2025-09-30",
+    "pct_nao_comprou": {
+      "Atenção": 0.522,
+      "Entrando em churn": 0.667,
+      "Saudável": 0.292
+    },
+    "clientes": {
+      "Atenção": 2030,
+      "Entrando em churn": 1770,
+      "Saudável": 3956
+    }
+  }
+}
